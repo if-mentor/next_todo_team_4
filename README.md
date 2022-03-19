@@ -1,3 +1,5 @@
+変更（野口）
+
 # Todo リスト作成チーム開発（第 ４ 期）
 
 ## 開発メンバー
@@ -8,7 +10,7 @@
 - サポート: Hiro (hirooutdoor)
 
 - 参加メンバー
-- 
+-
 
 ## 使用技術
 
@@ -16,9 +18,9 @@
 - Next.js (https://github.com/vercel/next.js)
 
 ## 推奨VScode拡張機能
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&ssr=false#qna) コミットの一覧→詳細を閲覧できる 
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&ssr=false#qna) コミットの一覧→詳細を閲覧できる
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) ファイルの履歴などを確認できる
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) 
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ※ おすすめしたいものがあれば適宜追加する
@@ -41,7 +43,7 @@ Todo リストの作成を通じて、React、Next.js の基礎、git,Github の
 ## 環境構築手順
 
 1. `git clone https://github.com/if-mentor/next_todo_team_4.git`
-2. **githubアカウントを2つ以上持っている方のみ、確認**    
+2. **githubアカウントを2つ以上持っている方のみ、確認**
    - cloneしたリポジトリのディレクトリに移動
    - `git config --list`を実行する
    - vscodeでgithubと連携をおこなっているユーザー名がプロジェクトに招待してもらっているユーザー名と同じになっているか確認
