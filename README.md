@@ -57,6 +57,7 @@ Todo リストの作成を通じて、React、Next.js の基礎、git,Github の
 
 ## 開発Tips
 
+
 1. プルリクエスト前の作業
 
 プルリクエストを上げる前に必ず、自分が作業を行なっているブランチで`git pull origin main`を行うこと
