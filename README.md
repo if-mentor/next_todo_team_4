@@ -41,9 +41,15 @@ Todo リストの作成を通じて、React、Next.js の基礎、git,Github の
 ## 環境構築手順
 
 1. `git clone https://github.com/if-mentor/next_todo_team_4.git`
-2. リポジトリのディレクトリへ移動
-3. `yarn`  // packageのinstall
-4. `yarn dev `
+2. **githubアカウントを2つ以上持っている方のみ、確認**    
+   - cloneしたリポジトリのディレクトリに移動
+   - `git config --list`を実行する
+   - vscodeでgithubと連携をおこなっているユーザー名がプロジェクトに招待してもらっているユーザー名と同じになっているか確認
+   - 同じとなっていない場合は、ログインを変更する（※方法がわからない場合は、ジュンペイに連絡すること）
+3. リポジトリのディレクトリへ移動
+4. `yarn`  // packageのinstall
+5. `yarn dev `
+
    上記を実行し、`http://localhost:3000/`
    以下の画像の画面が表示できるか確認をお願いします。
 
