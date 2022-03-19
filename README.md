@@ -8,24 +8,25 @@
 - サポート: Hiro (hirooutdoor)
 
 - 参加メンバー
-- 
+-
 
 ## 使用技術
 
 - React.js (https://github.com/facebook/react)
 - Next.js (https://github.com/vercel/next.js)
 
-## 推奨VScode拡張機能
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&ssr=false#qna) コミットの一覧→詳細を閲覧できる 
+## 推奨 VScode 拡張機能
+
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&ssr=false#qna) コミットの一覧 → 詳細を閲覧できる
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) ファイルの履歴などを確認できる
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) 
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ※ おすすめしたいものがあれば適宜追加する
 
 ## バージョン情報
 
-voltaで管理、volta以外をお使いの方は自身で以下のバージョンにあわせてください。
+volta で管理、volta 以外をお使いの方は自身で以下のバージョンにあわせてください。
 https://volta.sh/
 
 ```
@@ -36,18 +37,18 @@ https://volta.sh/
 ## プロジェクトの概要
 
 Todo リストの作成を通じて、React、Next.js の基礎、git,Github の使い方に慣れ、チーム開発を体験する。
-チームメンバー同士でのコードレビュー、毎週MTGでのissueやデザインについての議論など個人開発では行えない内容をカバーしていきます。
+チームメンバー同士でのコードレビュー、毎週 MTG での issue やデザインについての議論など個人開発では行えない内容をカバーしていきます。
 
 ## 環境構築手順
 
 1. `git clone https://github.com/if-mentor/next_todo_team_4.git`
-2. **githubアカウントを2つ以上持っている方のみ、確認**    
-   - cloneしたリポジトリのディレクトリに移動
+2. **github アカウントを 2 つ以上持っている方のみ、確認**
+   - clone したリポジトリのディレクトリに移動
    - `git config --list`を実行する
-   - vscodeでgithubと連携をおこなっているユーザー名がプロジェクトに招待してもらっているユーザー名と同じになっているか確認
+   - vscode で github と連携をおこなっているユーザー名がプロジェクトに招待してもらっているユーザー名と同じになっているか確認
    - 同じとなっていない場合は、ログインを変更する（※方法がわからない場合は、ジュンペイに連絡すること）
 3. リポジトリのディレクトリへ移動
-4. `yarn`  // packageのinstall
+4. `yarn` // package の install
 5. `yarn dev `
 
    上記を実行し、`http://localhost:3000/`
@@ -55,7 +56,7 @@ Todo リストの作成を通じて、React、Next.js の基礎、git,Github の
 
    ![image](https://user-images.githubusercontent.com/24813936/148723807-3b3e571b-6669-4d1c-a96f-d623f9650e09.png)
 
-## 開発Tips
+## 開発 Tips
 
 1. プルリクエスト前の作業
 
@@ -64,9 +65,9 @@ Todo リストの作成を通じて、React、Next.js の基礎、git,Github の
 
 2. `git pull origin main`を行なった後の作業
 
-remoteに変更があった場合は、`git pull origin main`のコマンドを実行し、remoteの変更を取り込む
-packageに更新がないか、確認するため、`yarn`コマンドを実行する
-`success Already up-to-date.`と表示されればOK。
+remote に変更があった場合は、`git pull origin main`のコマンドを実行し、remote の変更を取り込む
+package に更新がないか、確認するため、`yarn`コマンドを実行する
+`success Already up-to-date.`と表示されれば OK。
 
 ### 自主的な貢献を歓迎
 
@@ -76,7 +77,7 @@ packageに更新がないか、確認するため、`yarn`コマンドを実行�
 
 ### git/gitHub
 
-毎週MTGの際にメンバーの中で翌週のプルリクに対して、レビュワーを2人以上決めて、順番に回していく。
+毎週 MTG の際にメンバーの中で翌週のプルリクに対して、レビュワーを 2 人以上決めて、順番に回していく。
 
 #### ブランチ命名規則
 
