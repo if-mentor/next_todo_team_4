@@ -1,5 +1,4 @@
 import Link from "next/link"
-import "../styles/task.css";
 
 export default function task() {
     const taskName="Github上に静的サイトをホスティングする"
