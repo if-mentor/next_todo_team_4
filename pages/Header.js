@@ -5,7 +5,7 @@ export class Header extends Component {
   render() {
     return (
       <>
-        <Box bg="tomato" w="100%" p={4} color="white">
+        <Box bg="gray.500" w="100%" p={4} color="white" fontSize={"20px"}>
           Todoアプリ
         </Box>
       </>
