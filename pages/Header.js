@@ -1,13 +1,22 @@
-import { Box } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 import React, { Component } from "react";
 
 export class Header extends Component {
   render() {
     return (
       <>
-        <Box bg="gray.500" w="100%" p={4} color="white" fontSize={"20px"}>
-          Todoアプリ
-        </Box>
+        <Flex
+          as="nav"
+          bg="gray.500"
+          color="white"
+          align="center"
+          justify="space-between"
+          padding={{ base: 5 }}
+        >
+          <Heading as="h3" font-size={{ base: "md", md: "lg" }}>
+            Todoアプリ
+          </Heading>
+        </Flex>
       </>
     );
   }
