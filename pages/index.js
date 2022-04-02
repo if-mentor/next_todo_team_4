@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./Header";
-import SideBar from "./SideBar";
 import Top from "./Top";
 
 export default function Home() {
@@ -15,10 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <header>Header</header>
-      <SideBar />
       <Top />
-      <Button colorScheme="blue">Button</Button>
     </div>
   );
 }
