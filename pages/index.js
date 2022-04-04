@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 import { Button } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./Header";
 import Top from "./Top";
+=======
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { Heading } from "@chakra-ui/react";
+>>>>>>> 7157c0e54e25d99fa53238a2bca7c33c9631a398
 
 export default function Home() {
   return (
@@ -20,7 +27,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -61,12 +68,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
