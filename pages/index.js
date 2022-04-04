@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-import { Button } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Header from "./Header";
-import Top from "./Top";
-=======
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { Heading } from "@chakra-ui/react";
->>>>>>> 7157c0e54e25d99fa53238a2bca7c33c9631a398
 
 export default function Home() {
   return (
