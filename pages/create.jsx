@@ -3,6 +3,7 @@ import { Box, Button, Flex, Input, Text, Textarea } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Select from "react-select";
 import { Header } from "./Header";
+import { Sidebar } from "./Sidebar";
 
 // CSSではなくChakraでなんとかする
 // →細かいところが作れない
@@ -23,16 +24,9 @@ export default function Create() {
   return (
     <>
       <ChakraProvider>
-        <Header></Header>
+        <Header />
         <Flex className="main">
-          <div className="nav">
-            <div className="search">
-              <h2>検索</h2>
-              <input type="text" />
-            </div>
-            <div className="status"></div>
-            <div className="tag"></div>
-          </div>
+          <Sidebar />
 
           <Box className="create" flex="1" px="64px" py="32px">
             <Flex justifyContent="space-between" alignItems="center" mb="24px">
