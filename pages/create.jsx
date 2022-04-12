@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Button, Flex, Input, Text, Textarea } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Select from "react-select";
+import { Header } from "./Header";
 
 // CSSではなくChakraでなんとかする
 // →細かいところが作れない
@@ -22,6 +23,7 @@ export default function Create() {
   return (
     <>
       <ChakraProvider>
+        <Header></Header>
         <Flex className="main">
           <div className="nav">
             <div className="search">
