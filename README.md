@@ -5,6 +5,7 @@
 - 管理： ジュンペイ （Junkichi89）
 - リーダー:（Issue 管理など）
 - レビュワー: メンバー全員
+- デザイン：　 sasa-training
 - サポート:
    - ryo sasaki
 
